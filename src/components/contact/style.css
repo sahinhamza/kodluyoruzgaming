@@ -1,0 +1,22 @@
+.contact {
+    margin-bottom: 20vh;
+}
+
+.contact .formcontrol {
+    margin: 10px;
+}
+
+.contact .formcontrol label {
+    display: block;
+    margin: 5px 0px;
+}
+
+.contact input {
+    width: 100%;
+}
+
+.contact textarea {
+    height: 150px;
+    width: 100%;
+
+}

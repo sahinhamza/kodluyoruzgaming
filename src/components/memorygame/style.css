@@ -1,0 +1,48 @@
+.memory {
+    background-color: #011F3F;
+    margin-bottom: 20vh;
+}
+
+.memory p {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-top: 40px;
+}
+
+.cards {
+    position: relative;
+}
+
+.cards img {
+    border: none;
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+
+.cards .front {
+    position: absolute;
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+}
+
+.cards .back {
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+}
+
+.flipped .front {
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+.flipped .back {
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}

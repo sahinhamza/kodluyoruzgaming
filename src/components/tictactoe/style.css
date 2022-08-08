@@ -1,0 +1,33 @@
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    user-select: none;
+}
+
+.tictactoe{
+    background-color: #011F3F;
+    margin-bottom: 20vh;
+}
+
+table td {
+    border: 1px solid grey;
+    border-color: rgb(249,237,105);
+    border-width: 5px;
+    color:#fff;
+    cursor: pointer;
+    height: 100px;
+    text-align: center;
+    width: 100px;
+}
+
+.select-btn{
+    margin: 20px;
+}
+
+.tictactoe p {
+    color: #fff;
+    margin-top: 20px ;
+}

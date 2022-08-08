@@ -1,0 +1,43 @@
+.Main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20vh;
+}
+
+.Main>div {
+    background-color: rgb(240, 138, 93);
+    margin: 15px 30px;
+    text-align: center;
+    width: 12rem;
+}
+
+.Main img {
+    height: 200px;
+    margin: 5px  ; 
+}
+
+.select-btn {
+    border-color: rgb(184, 59, 94);
+    border-radius: 7px;
+    box-shadow: 0 .2em gray;
+    color: gray;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 5px 5px;
+    background-color: lightgray;
+    text-align: center;
+    text-shadow: -1px -1px black, 1px 1px white;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.select-btn:active {
+    box-shadow: none;
+    position: relative;
+    top: .2em;
+}
+

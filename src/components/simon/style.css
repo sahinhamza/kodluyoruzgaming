@@ -1,0 +1,44 @@
+.simon {
+  background-color: #011F3F;
+  margin-bottom: 20vh;
+}
+
+.press-button {
+  border: 10px solid black;
+  border-radius: 20%;
+  display: inline-block;
+  height: 150px;
+  margin: 25px;
+  width: 150px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.simon-h3 {
+  color: aliceblue;
+  margin: 15px;
+}

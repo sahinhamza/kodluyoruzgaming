@@ -1,0 +1,13 @@
+.nomatch{
+    background-image: url("../../assets/images/404.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px 600px;
+    height: 500px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.nomatch h1, p {
+    color: black ;
+}
