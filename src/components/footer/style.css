@@ -97,3 +97,12 @@
         margin-right: 0;
     }
 }
+
+
+@media screen and (max-width: 767px) {
+    .site-footer {
+        width: 100%!important; 
+        overflow-x: hidden!important
+    }
+
+}

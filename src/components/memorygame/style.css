@@ -46,3 +46,13 @@
     transform: rotateY(90deg);
     transition-delay: 0s;
 }
+
+@media screen and (max-width: 767px) {
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(80px, 1fr));
+        grid-column-gap: 0px;
+        margin-top: 40px;
+    }
+
+}

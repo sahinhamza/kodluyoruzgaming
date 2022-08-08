@@ -75,3 +75,17 @@
 .reset:active{
     transform: scale(0.9);
 }
+
+@media screen and (max-width: 767px) {
+    .minesweeper{
+        transform: scale(0.8);
+    }
+
+}
+
+@media screen and (max-width: 485px) {
+    .minesweeper{
+        transform: scale(0.7);
+    }
+
+}
