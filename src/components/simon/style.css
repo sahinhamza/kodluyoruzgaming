@@ -1,16 +1,16 @@
 .simon {
   background-color: #011F3F;
   margin-bottom: 20vh;
-
+  padding-bottom: 20px;
 }
 
 .press-button {
-  border: 10px solid black;
+  border: 5px solid black;
   border-radius: 20%;
   display: inline-block;
-  height: 150px;
-  margin: 25px;
-  width: 150px;
+  height: 100px;
+  margin: 10px;
+  width: 100px;
 }
 
 .game-over {
