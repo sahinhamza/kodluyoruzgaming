@@ -5,7 +5,7 @@
 - [Live](#live)
 
 ## General info
-This is my final project at Kodluyoruz K140 Istanbul Front-End Web Development Bootcamp. There are several basic game. There are several games that I created using react.
+This is my final project at Kodluyoruz K140 Istanbul Front-End Web Development Bootcamp. There are several games that I created using react.
 	
 ## Technologies
 Project is created with:
